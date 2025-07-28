@@ -76,4 +76,10 @@ npm start
 
 - Tests located in: `tests/ui/`
 - Login, create, edit, and delete todos
+- npx playwright test tests/ui
 
+### ✅ API Testing with Playwright
+
+- Tests located in: `tests/ui/`
+- Login, create, edit, and delete todos
+- npx playwright test tests/api
