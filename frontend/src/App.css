@@ -1,0 +1,90 @@
+/* src/App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  margin: 6px 8px 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: calc(100% - 90px);
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 16px;
+  margin: 6px 0;
+  background-color: #2563eb;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9fafb;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+
+li input[type="text"] {
+  width: 60%;
+}
+
+button.edit-btn,
+button.delete-btn {
+  background-color: #6b7280;
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+button.edit-btn:hover {
+  background-color: #4b5563;
+}
+
+button.delete-btn {
+  background-color: #dc2626;
+}
+
+button.delete-btn:hover {
+  background-color: #b91c1c;
+}
